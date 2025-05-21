@@ -1,6 +1,6 @@
-name: khan-md
+name: ᏦᏆᏞᏞᎬᎡ ХᎷᎠ 
 services:
-  - name: khan-md-service
+  - name: ᏦᏆᏞᏞᎬᎡ ХᎷᎠ -service
     type: web
     ports:
       - 5000
