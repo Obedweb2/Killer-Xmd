@@ -44,7 +44,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['923427582273']
+  const ownerNumber = ['254791637867']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -113,8 +113,8 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*Hello there KHAN-MD User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet KHAN-MD WhatsApp Bot.\n\n *Thanks for using KHAN-MD \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029VatOy2EAzNc2WcShQw1j\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/JawadYT36/KHAN-MD\n\n> © Powered BY JawadTechX \ud83d\udda4`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/7zfdcq.jpg` }, caption: up })
+  let up = `*ᎻᎬᏞᏞϴ ͲᎻᎬᎡᎬ ᏦᏆᏞᏞᎬᎡ-ХᎷᎠ ႮՏᎬՏ! \ud83d\udc4b\ud83c\udffb* \n\n> ՏiᎷᏢᏞᎬ ,ՏͲᎡᎪᏆᏀͲ ҒϴᎡᏔᎪᎡᎠ ᏴႮͲ ᏞϴᎪᎠᎬᎠ ᏔᏆͲᎻ ҒᎬᎪͲႮᎡᎬᎡՏ \ud83c\udf8a, ᎷᎬᎬͲ ᏦᏆᏞᏞᎬᎡ ХᎷᎠ ᏴϴͲ.\n\n *ͲᎻᎪΝᏦ ᎽϴႮ ҒϴᎡ ႮՏᏆΝᏀ ᏦᏆᏞᏞᎬᎡ-ХᎷᎠ ᏴϴͲ \ud83d\udea9* \n\n> ᎫϴᏆΝ ᏔᎻᎪͲՏᎪᏢᏢ ᏟᎻᎪΝΝᎬᏞ :- ⤵️\n \nhttps://whatsapp.com/channel/0029VbAKbSjBA1ep4NkKGd1Y\n\n- *YOUR PREFIX:* = ${prefix}\n\nᎠϴΝͲ ҒϴᎡᏀᎬͲ Ͳϴ ᏀᏆᏙᎬ ՏͲᎪᎡ Ͳϴ ᎡᎬᏢϴ ⬇️\n\nhttps://github.com/JawadYT36/KHAN-MD\n\n> © Powered BY 🅾🅱🅴🅳🆃🅴🅲🅷 \ud83d\udda4`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/db7508.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -201,7 +201,7 @@ const port = process.env.PORT || 9090;
   conn.sendMessage(from, { text: teks }, { quoted: mek })
   }
   const udp = botNumber.split('@')[0];
-    const jawad = ('923470027813', '923191089077', '923427582273');
+    const jawad = ('254701082940', '254701082940', '254791637868');
     let isCreator = [udp, jawad, config.DEV]
 					.map(v => v.replace(/[^0-9]/g) + '@s.whatsapp.net')
 					.includes(mek.sender);
@@ -248,7 +248,7 @@ const port = process.env.PORT || 9090;
 				}
  //================ownerreact==============
     
-if (senderNumber.includes("923427582273") && !isReact) {
+if (senderNumber.includes("254791637868") && !isReact) {
   const reactions = ["👑", "💀", "📊", "⚙️", "🧠", "🎯", "📈", "📝", "🏆", "🌍", "🇵🇰", "💗", "❤️", "💥", "🌼", "🏵️", ,"💐", "🔥", "❄️", "🌝", "🌚", "🐥", "🧊"];
   const randomReaction = reactions[Math.floor(Math.random() * reactions.length)];
   m.react(randomReaction);
@@ -769,7 +769,7 @@ if (!isReact && config.CUSTOM_REACT === 'true') {
   }
   
   app.get("/", (req, res) => {
-  res.send("KHAN MD STARTED ✅");
+  res.send("ᏦᏆᏞᏞᎬᎡ ХᎷᎠ  STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
