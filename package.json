@@ -4,7 +4,7 @@
   "description": "A WhatsApp Bot Created By 🄾🄱🄴🄳 🅃🄴🄲🄷",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name KHAN-MD",
+    "start": "pm2 start index.js --deep-monitoring --attach --name ᏦᏆᏞᏞᎬᎡ ХᎷᎠ ",
     "stop": "pm2 stop ᏦᏆᏞᏞᎬᎡ ХᎷᎠ ",
     "restart": "pm2 restart ᏦᏆᏞᏞᎬᎡ ХᎷᎠ "
   },
